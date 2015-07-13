@@ -28,8 +28,4 @@ public class Granduer extends Car{
 		return carId;
 	}
 
-	public void setCarId(int carId) {
-		this.carId = carId;
-	}
-
 }

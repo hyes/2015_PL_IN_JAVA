@@ -27,11 +27,5 @@ public class Genesis extends Car{
 	public int getCarId() {
 		return carId;
 	}
-
-
-	
-
-
-
 	
 }
