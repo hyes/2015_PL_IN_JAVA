@@ -1,0 +1,11 @@
+package javahw3;
+
+public class Player {
+	public GameLevel level;
+	
+	public GameLevel upgradeLevel(GameLevel gameLevel){
+		
+		return gameLevel;
+	}
+	
+}

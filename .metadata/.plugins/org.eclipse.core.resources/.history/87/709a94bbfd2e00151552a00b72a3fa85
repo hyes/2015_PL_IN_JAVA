@@ -1,0 +1,6 @@
+package cahpter6;
+
+public class StudaCard {
+	int num;
+	boolean isKwang;
+}

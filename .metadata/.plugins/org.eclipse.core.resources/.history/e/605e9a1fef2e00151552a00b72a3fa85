@@ -1,0 +1,13 @@
+package javahw3;
+
+public class Board {
+
+	public static void main(String[] args) {
+		Player pl1 = new Player();
+		System.out.println(pl1.level+"");
+		pl1.upgradeLevel(GameLevel1.getGameLevel1());
+		pl1.attack();
+	}
+
+
+}

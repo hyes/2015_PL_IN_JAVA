@@ -1,0 +1,29 @@
+package javahw3;
+
+public class Player {
+	public GameLevel gameLevel;
+	
+	public void upgradeLevel(GameLevel gameLevel){
+		this.gameLevel = gameLevel;
+	}
+	
+	public GameLevel getGameLevel(){
+		return gameLevel;
+	}
+	
+	final public void attack(String levelInfo){
+		attackStart();
+		gameLevel.play();
+		attackEnd();
+	}
+	
+	private void attackStart() {
+		System.out.println("======= "+ gameLevel.getClass() + " start ========");	
+	}
+	
+	private void attackEnd() {
+		System.out.println("======== "+ gameLevel + " end =========");
+		System.out.print(System.lineSeparator());
+		
+	}
+}

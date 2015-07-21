@@ -1,0 +1,15 @@
+package javahw3;
+
+public abstract class GameLevel {
+	
+	public abstract void simpleAttack(String levelInfo);
+	public abstract void turnAttack(String levelInfo);
+	public abstract void flyingAttack(String levelInfo);
+	
+	public final void play(String levelInfo){
+		simpleAttack(levelInfo);
+		turnAttack(levelInfo);
+		flyingAttack(levelInfo);
+	};
+
+}

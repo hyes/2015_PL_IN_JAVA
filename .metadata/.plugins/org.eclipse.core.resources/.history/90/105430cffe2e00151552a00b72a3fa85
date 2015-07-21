@@ -1,0 +1,24 @@
+package cahpter6;
+	
+
+public class StudaCard {
+	int num;
+	boolean isKwang;
+	
+	public StudaCard() {
+		
+	}
+
+	public StudaCard(int num, boolean isKwang) {
+		this.num = num;
+		this.isKwang = isKwang;
+	}
+	
+	public int info() {
+		
+		return num;
+	}
+	
+	
+}
+

@@ -1,0 +1,21 @@
+package cahpter6;
+
+public class Student {
+	String name;
+	int ban;
+	int no;
+	int kor;
+	int eng;
+	int math;
+	
+	public int getTotal(){
+		int temp = kor + eng + math;
+		return temp;
+	}
+	
+	public String getAverage(){
+		float temp = this.getTotal()/3;
+		String average = String.format("%2.1f", temp);
+		return average;
+	}
+}

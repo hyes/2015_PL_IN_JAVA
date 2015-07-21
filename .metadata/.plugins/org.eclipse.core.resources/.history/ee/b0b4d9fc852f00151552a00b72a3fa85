@@ -1,0 +1,14 @@
+package cahpter6;
+
+public class temp {
+
+	public static void change(String str){
+		str += "456";
+	}
+	public static void main(String args[]){
+		String s = "123";
+		System.out.println(s);
+		change(s);
+		System.out.println(s);
+	}
+}

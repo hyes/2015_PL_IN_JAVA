@@ -1,0 +1,12 @@
+package cahpter6;
+
+class Excercise6_2 {
+	public static void main(String args[]){
+		
+	}
+}
+
+public class StudaCard {
+	int num;
+	boolean isKwang;
+}

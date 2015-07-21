@@ -1,0 +1,34 @@
+package javahw3;
+
+public class GameLevel1 extends GameLevel{
+	public static final String LEVEL1 = "level1";
+	private static GameLevel1 gameLevel1 = new GameLevel1();
+	
+	public static GameLevel1 getInstance(){
+		
+		if(gameLevel1 == null){
+			gameLevel1 = new GameLevel1();
+		}
+		return gameLevel1;
+	}
+
+	@Override
+	public void simpleAttack(String levelInfo) {
+		System.out.println(levelInfo + " simple attack 메롱 ");
+		
+	}
+
+	@Override
+	public void turnAttack(String levelInfo) {
+		System.out.println(levelInfo + " turn attack  못하지롱");
+		
+	}
+
+	@Override
+	public void flyingAttack(String levelInfo) {
+		System.out.println(levelInfo + " flying attack 이것도 못하지롱  ");
+		
+	}
+
+	
+}
